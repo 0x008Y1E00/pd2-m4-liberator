@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel orientation_object="rp_wpn_fps_ass_m4gl" />
+	<animations>
+		<animation_group name="reload">
+			<object name="a_reload_bolt" enabled="true" />
+			<object name="a_reload_mag" enabled="true" />
+		</animation_group>
+		<animation_group name="reload_not_empty">
+			<object name="a_reload_not_empty_mag" enabled="true" />
+		</animation_group>
+		<animation_group name="recoil">
+			<object name="a_recoil_bolt" enabled="true" />
+		</animation_group>
+	</animations>
+</dynamic_object>
