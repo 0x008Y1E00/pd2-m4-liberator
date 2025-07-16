@@ -7,7 +7,7 @@ function NewRaycastWeaponBase:weapon_tweak_data(...)
         if self._name_id == "contraband" then
             wpn_twk_data.use_stance = "contraband"
         elseif self._name_id == "liberator" then
-            wpn_twk_data.use_stance = "liberator" 
+            wpn_twk_data.use_stance = "liberator"
         end
     end
 
