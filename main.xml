@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <mod name="M4 Liberator" author="0x008Y1E00" min_lib_ver="3.38" priority="12">
-    <AssetUpdates id="52553" version="1.0" provider="modworkshop"/>
+    <AssetUpdates id="52553" version="1.1" provider="modworkshop"/>
     <Localization directory="loc" default="english.json">
         <loc file="english.json" language="english"/>
     </Localization>
