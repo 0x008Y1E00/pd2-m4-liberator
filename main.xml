@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<mod name="M4 Liberator" author="0x008Y1E00" min_lib_ver="3.38" priority="12">
-    <AssetUpdates id="52553" version="1.1" provider="modworkshop"/>
+<mod name="M4 Liberator" author="0x008Y1E00" min_lib_ver="3.38">
+    <AssetUpdates id="52553" version="1.2" provider="modworkshop"/>
     <Localization directory="loc" default="english.json">
         <loc file="english.json" language="english"/>
     </Localization>
@@ -95,7 +95,9 @@
                 <value_node value="wpn_fps_upg_liberator_fg_lvoa"/>
                 <value_node value="wpn_fps_m4_uupg_o_flipup"/>
                 <value_node value="wpn_fps_upg_m4_s_standard_vanilla"/>
-                <value_node value="wpn_fps_ass_contraband_gl_m203"/>            
+                <value_node value="wpn_fps_ass_contraband_gl_m203"/>
+                
+                <value_node value="wpn_fps_m16_fg_railed"/>     
                 
                 <value_node value="wpn_fps_upg_ns_ass_smg_large"/>
                 <value_node value="wpn_fps_upg_ns_ass_smg_medium"/>
@@ -112,6 +114,7 @@
                 <value_node value="wpn_fps_lmg_hk51b_ns_jcomp"/>
                 <value_node value="wpn_fps_lmg_kacchainsaw_ns_suppressor"/>
                 <value_node value="wpn_fps_lmg_kacchainsaw_ns_muzzle"/>
+                <value_node value="wpn_fps_snp_victor_ns_omega"/>
                 
                 <value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
                 <value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
@@ -199,6 +202,8 @@
                 <value_node value="wpn_fps_upg_a_underbarrel_hornet"/>
                 <value_node value="wpn_fps_upg_a_underbarrel_electric"/>
                 <value_node value="wpn_fps_upg_a_underbarrel_poison"/>
+                
+                <value_node value="wpn_fps_upg_gadget_heartsensor"/>                
             </uses_parts>
         </factory>
     </Weapon>
@@ -211,7 +216,6 @@
         <unit path="units/mods/weapons/wpn_fps_ass_liberator/wpn_fps_ass_liberator_npc"/>
         
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/liberator"/>
-        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/liberator_m203"/>
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_liberator_o_hs"/>
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_liberator_gp_left"/>
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_liberator_gp_top"/>
