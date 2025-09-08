@@ -1,22 +1,24 @@
 {
-    "bm_w_liberator" : "The Liberator",
+    "bm_w_liberator" : "The Liberator 5.56 Assault Rifle",
     "bm_w_liberator_desc" : "TRAPPED? FLANKED? Time to introduce your enemy to THE LIBERATOR! \nSwitch from BANG to BOOM faster than they can scream: «OH SH*T, I'M SORRY».",
-	
-	"bm_wp_liberator_gl_m203" : "M203",
-	"bm_wp_liberator_gl_m203_desc" : "",
-
+    
     "bm_menu_gadget_placement" : "Gadget Placement",
     "bm_menu_gadget_placement_plural" : "Gadget Placement",
-
+    
     "bm_wp_upg_liberator_gp_top" : "«12 o'clock» Tactical Rail",
     "bm_wp_upg_liberator_gp_top_desc" : "NOTE: Using for mounting a tactical gadget.",
     
-	"bm_wp_upg_liberator_gp_left" : "«9 o'clock» Tactical Rail",
-	"bm_wp_upg_liberator_gp_left_desc" : "NOTE: Using for mounting a tactical gadget.",
-	
-	"bm_wp_upg_liberator_o_hs" : "Carry Handle Sight",
+    "bm_wp_upg_liberator_gp_left" : "«9 o'clock» Tactical Rail",
+    "bm_wp_upg_liberator_gp_left_desc" : "NOTE: Using for mounting a tactical gadget.",
+    
+    "bm_wp_upg_liberator_o_hs" : "Carry Handle Sight",
     "bm_wp_upg_liberator_o_hs_desc" : "",
-	
-	"bm_wp_upg_liberator_s_sld" : "Solid Stock",
-    "bm_wp_upg_liberator_s_sld_desc" : ""
+    
+    "bm_wp_upg_liberator_s_sld" : "Solid Stock",
+    "bm_wp_upg_liberator_s_sld_desc" : "",
+    
+    "bm_wp_ass_liberator_ns_dcb" : "Decibel Suppressor",
+    "bm_wp_ass_liberator_ns_dcb_desc" : "",
+    
+    "menu_l_global_value_mod_m4_liberator" : "This is a LIBERATOR WEAPON MOD Item!"
 }

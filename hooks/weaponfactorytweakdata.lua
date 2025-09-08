@@ -2,7 +2,9 @@ local function wftd_init_liberator(self)
     table.insert(self.parts.wpn_fps_m4_uupg_o_flipup.forbids, "wpn_fps_upg_liberator_gp_top")
     table.insert(self.parts.wpn_fps_upg_o_spot.forbids, "wpn_fps_upg_liberator_gp_top")
     table.insert(self.parts.wpn_fps_upg_o_northtac.forbids, "wpn_fps_upg_liberator_gp_top")
-        
+    
+    self.parts.wpn_fps_ass_liberator_ns_dcb.stats = deep_clone(self.parts.wpn_fps_upg_ns_ass_smg_large.stats)
+    
     self.parts.wpn_fps_upg_liberator_o_hs.stats = {
         value = 0,
         concealment = -3
@@ -56,7 +58,7 @@ local function wftd_init_liberator(self)
     }
     self.parts.wpn_fps_upg_liberator_o_hs.stance_mod = {}
     self.parts.wpn_fps_upg_liberator_o_hs.stance_mod.wpn_fps_ass_liberator = {
-        translation = Vector3(0, -1.5, -0.5)
+        translation = Vector3(0, -1.5, -0.6)
     }
     
     if BeardLib.Utils:ModLoaded("Restoration") or BeardLib.Utils:ModLoaded("RestorationMod") then

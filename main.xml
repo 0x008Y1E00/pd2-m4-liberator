@@ -1,14 +1,19 @@
 <?xml version="1.0"?>
 <mod name="M4 Liberator" author="0x008Y1E00" min_lib_ver="3.38">
-    <AssetUpdates id="52553" version="1.2" provider="modworkshop"/>
+    <AssetUpdates id="52553" version="1.3" provider="modworkshop"/>
     <Localization directory="loc" default="english.json">
         <loc file="english.json" language="english"/>
     </Localization>
-    <GlobalValue id="wpn_m4_liberator" color="Color(0.75,0.03,0.05)"/>
+    <GlobalValue id="mod_m4_liberator" color="Color(1.0, 0.5, 0.0)"/>
     
-    <WeaponMod id="wpn_fps_upg_liberator_fg_lvoa" based_on="wpn_fps_upg_ass_m4_fg_lvoa" has_description="false" type="foregrip" a_obj="a_fg" unit="units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_lvoa/wpn_fps_upg_ass_m4_fg_lvoa" third_unit="units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_fg_lvoa/wpn_third_upg_ass_m4_fg_lvoa" drop="false" is_a_unlockable="false"/>
+    <WeaponMod id="wpn_fps_upg_liberator_fg_lvoa" based_on="wpn_fps_upg_ass_m4_fg_lvoa" name_id="bm_wp_upg_liberator_fg_lvoa" has_description="false" type="foregrip" a_obj="a_fg" unit="units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_lvoa/wpn_fps_upg_ass_m4_fg_lvoa" third_unit="units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_fg_lvoa/wpn_third_upg_ass_m4_fg_lvoa" drop="false" is_a_unlockable="false" global_value="mod_m4_liberator">
+        <adds/>
+        <override/>
+        <forbids/>
+        <pcs/>
+    </WeaponMod>
     
-    <WeaponMod id="wpn_fps_upg_liberator_gp_left" based_on="wpn_upg_dummy" name_id="bm_wp_upg_liberator_gp_left" has_description="false" type="gadget_placement" depends_on="gadget" a_obj="a_fl" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" third_unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+    <WeaponMod id="wpn_fps_upg_liberator_gp_left" based_on="wpn_upg_dummy" name_id="bm_wp_upg_liberator_gp_left" has_description="false" type="gadget_placement" depends_on="gadget" a_obj="a_fl" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" third_unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true" global_value="mod_m4_liberator">
         <adds/>
         <override>
             <wpn_fps_upg_fl_ass_smg_sho_peqbox a_obj="a_fl_left"/>
@@ -22,7 +27,7 @@
         <pcs/>
     </WeaponMod>
     
-    <WeaponMod id="wpn_fps_upg_liberator_gp_top" based_on="wpn_upg_dummy" name_id="bm_wp_upg_liberator_gp_top" has_description="false" type="gadget_placement" depends_on="gadget" a_obj="a_fl" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" third_unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+    <WeaponMod id="wpn_fps_upg_liberator_gp_top" based_on="wpn_upg_dummy" name_id="bm_wp_upg_liberator_gp_top" has_description="false" type="gadget_placement" depends_on="gadget" a_obj="a_fl" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" third_unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true" global_value="mod_m4_liberator">
         <adds/>
         <override>
             <wpn_fps_upg_fl_ass_smg_sho_peqbox a_obj="a_fl_top"/>
@@ -36,7 +41,7 @@
         <pcs/>
     </WeaponMod>
     
-    <WeaponMod id="wpn_fps_upg_liberator_o_hs" based_on="wpn_fps_ass_m16_o_handle_sight" name_id="bm_wp_upg_liberator_o_hs" has_description="false" type="sight" a_obj="a_o" unit="units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_ass_m16_o_handle_sight" third_unit="units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_ass_m16_o_handle_sight" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+    <WeaponMod id="wpn_fps_upg_liberator_o_hs" based_on="wpn_fps_ass_m16_o_handle_sight" name_id="bm_wp_upg_liberator_o_hs" has_description="false" type="sight" a_obj="a_o" unit="units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_ass_m16_o_handle_sight" third_unit="units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_ass_m16_o_handle_sight" texture_bundle_folder="mods" drop="false" is_a_unlockable="true" global_value="mod_m4_liberator">
         <adds>
             <value_node value="wpn_fps_ass_m16_os_frontsight"/>
         </adds>
@@ -52,7 +57,14 @@
         <pcs/>
     </WeaponMod>
     
-    <WeaponMod id="wpn_fps_upg_liberator_s_sld" based_on="wpn_fps_m16_s_solid_vanilla" name_id="bm_wp_upg_liberator_s_sld" has_description="false" type="stock" a_obj="a_s" unit="units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_s_solid" third_unit="units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_m16_s_solid" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+    <WeaponMod id="wpn_fps_upg_liberator_s_sld" based_on="wpn_fps_m16_s_solid_vanilla" name_id="bm_wp_upg_liberator_s_sld" has_description="false" type="stock" a_obj="a_s" unit="units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_s_solid" third_unit="units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_m16_s_solid" texture_bundle_folder="mods" drop="false" is_a_unlockable="true" global_value="mod_m4_liberator">
+        <adds/>
+        <override/>
+        <forbids/>
+        <pcs/>
+    </WeaponMod>
+    
+    <WeaponMod id="wpn_fps_ass_liberator_ns_dcb" based_on="wpn_fps_upg_ns_ass_smg_large" name_id="bm_wp_ass_liberator_ns_dcb" has_description="false" type="barrel_ext" sub_type="silencer" a_obj="a_ns" unit="units/pd2_dlc_ja22/weapons/wpn_fps_m4_upg_mk12_pts/wpn_fps_m4_upg_ns_mk12" third_unit="units/pd2_dlc_ja22/weapons/wpn_fps_m4_upg_mk12_pts/wpn_third_m4_upg_ns_mk12" texture_bundle_folder="mods" drop="false" is_a_unlockable="true" global_value="mod_m4_liberator">
         <adds/>
         <override/>
         <forbids/>
@@ -60,7 +72,7 @@
     </WeaponMod>
     
     <Weapon>
-        <weapon id="liberator" based_on="new_m4" unlock_level="30" name_id="bm_w_liberator" has_description="true" use_stance="liberator" weapon_hold="contraband">
+        <weapon id="liberator" based_on="new_m4" unlock_level="30" name_id="bm_w_liberator" has_description="true" use_stance="liberator" weapon_hold="contraband" global_value="mod_m4_liberator">
             <animations equip_id="equip_contraband" reload_name_id="contraband"/>
             <sounds fire="m4_fire_single" fire_single="m4_fire_single" fire_auto="m4_fire" stop_fire="m4_stop"/>
             <categories>
@@ -68,7 +80,7 @@
             </categories>
         </weapon>
         <factory id="wpn_fps_ass_liberator" unit="units/mods/weapons/wpn_fps_ass_liberator/wpn_fps_ass_liberator" stock_adapter="wpn_fps_upg_m4_s_adapter">
-            <animations fire="recoil" fire_steelsight="recoil" reload="reload"  reload_not_empty="reload_not_empty" magazine_empty="last_recoil" bipod_fire="bipod_recoil" bipod_fire_steelsight="bipod_recoil_zoom" bipod_reload="bipod_reload"/>
+            <animations fire="recoil" fire_steelsight="recoil" reload="reload" reload_not_empty="reload_not_empty" magazine_empty="last_recoil" bipod_fire="bipod_recoil" bipod_fire_steelsight="bipod_recoil_zoom" bipod_reload="bipod_reload"/>
             <adds/>
             <override/>
             <default_blueprint>
@@ -97,7 +109,7 @@
                 <value_node value="wpn_fps_upg_m4_s_standard_vanilla"/>
                 <value_node value="wpn_fps_ass_contraband_gl_m203"/>
                 
-                <value_node value="wpn_fps_m16_fg_railed"/>     
+                <value_node value="wpn_fps_m16_fg_railed"/>
                 
                 <value_node value="wpn_fps_upg_ns_ass_smg_large"/>
                 <value_node value="wpn_fps_upg_ns_ass_smg_medium"/>
@@ -115,6 +127,8 @@
                 <value_node value="wpn_fps_lmg_kacchainsaw_ns_suppressor"/>
                 <value_node value="wpn_fps_lmg_kacchainsaw_ns_muzzle"/>
                 <value_node value="wpn_fps_snp_victor_ns_omega"/>
+                <value_node value="wpn_fps_snp_contender_suppressor"/>
+                <value_node value="wpn_fps_ass_liberator_ns_dcb"/>
                 
                 <value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
                 <value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
@@ -175,8 +189,7 @@
                 <value_node value="wpn_fps_upg_m4_m_l5"/>
                 <value_node value="wpn_fps_m4_upg_m_quick"/>
                 <value_node value="wpn_fps_m4_uupg_m_strike"/>
-                
-                <value_node value="wpn_fps_upg_liberator_s_sld"/>
+                                
                 <value_node value="wpn_fps_m4_uupg_s_fold"/>
                 <value_node value="wpn_fps_upg_m4_s_pts"/>
                 <value_node value="wpn_fps_upg_m4_s_mk46"/>
@@ -185,6 +198,7 @@
                 <value_node value="wpn_fps_sho_sko12_stock"/>
                 <value_node value="wpn_fps_snp_victor_s_mod0"/>
                 <value_node value="wpn_fps_m4_uupg_s_zulu"/>
+                <value_node value="wpn_fps_upg_liberator_s_sld"/>           
                 
                 <value_node value="wpn_fps_upg_m4_g_hgrip"/>
                 <value_node value="wpn_fps_upg_m4_g_mgrip"/>
@@ -209,6 +223,9 @@
     </Weapon>
     
     <AddFiles directory="assets">
+        <object path="units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/wpn_fps_snp_victor_ns_omega"/>
+        <unit path="units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/wpn_fps_snp_victor_ns_omega"/>
+        
         <cooked_physics path="units/mods/weapons/wpn_fps_ass_liberator/wpn_fps_ass_liberator"/>
         <model path="units/mods/weapons/wpn_fps_ass_liberator/wpn_fps_ass_liberator"/>
         <object path="units/mods/weapons/wpn_fps_ass_liberator/wpn_fps_ass_liberator"/>
@@ -220,6 +237,8 @@
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_liberator_gp_left"/>
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_liberator_gp_top"/>
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_liberator_s_sld"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_liberator_ns_omega"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_liberator_ns_dcb"/>
     </AddFiles>
     
     <Hooks directory="hooks">
