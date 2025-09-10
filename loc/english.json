@@ -5,6 +5,9 @@
     "bm_menu_gadget_placement" : "Gadget Placement",
     "bm_menu_gadget_placement_plural" : "Gadget Placement",
     
+    "bm_wp_upg_liberator_dummy" : "dummy",
+    "bm_wp_upg_liberator_dummy_desc" : "",
+    
     "bm_wp_upg_liberator_gp_top" : "«12 o'clock» Tactical Rail",
     "bm_wp_upg_liberator_gp_top_desc" : "NOTE: Using for mounting a tactical gadget.",
     

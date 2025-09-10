@@ -5,6 +5,13 @@ local function wftd_init_liberator(self)
     
     self.parts.wpn_fps_ass_liberator_ns_dcb.stats = deep_clone(self.parts.wpn_fps_upg_ns_ass_smg_large.stats)
     
+    self.parts.wpn_upg_liberator_dummy.stats = {
+        value = 0
+    }
+    self.parts.wpn_upg_liberator_dummy.adds = {}
+    self.parts.wpn_upg_liberator_dummy.override = {}
+    self.parts.wpn_upg_liberator_dummy.forbids = {}
+    
     self.parts.wpn_fps_upg_liberator_o_hs.stats = {
         value = 0,
         concealment = -3
