@@ -20,7 +20,7 @@ local function wtd_init_liberator(self)
     self.liberator.AMMO_MAX = 150
     self.liberator.fire_mode_data.fire_rate = 0.08
     self.liberator.auto.fire_rate = 0.08
-    self.liberator.damage_falloff = clone(self.new_m4.damage_falloff)
+
     self.liberator.spread = {
         standing = self.new_m4.spread.standing,
         crouching = self.new_m4.spread.crouching,
