@@ -1,0 +1,11 @@
+<unit type="wpn" slot="1">
+	<object file="units/mods/weapons/wpn_fps_gl_underbarrel_m203_incendiary/wpn_fps_gl_underbarrel_m203_incendiary" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+        <extension name="base" class="WeaponUnderbarrelLauncher">
+			<var name="name_id" value="contraband_m203" />
+			<var name="anim" value="flip_up" />
+			<var name="launcher_projectile" value="launcher_incendiary" />
+		</extension>
+	</extensions>
+</unit>
